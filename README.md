@@ -1,8 +1,8 @@
-# FineTuning-Datasheet-Demo
+# FineTuning-Datasheet-Demo versus Retrieval Augmented Generation (RAG)
 
 ## Project Overview
 
-Fine Tuning the Datasheet using a pretrained model and Low-Rank Adaption (LoRA).
+Fine Tuning a QA model on the Datasheet using a pretrained model and Low-Rank Adaption (LoRA) and comparing the result obtanied using Retrieval Augmented Generation (RAG)
 
 
 ![Reference Image](/pic/1_F7uWJePoMc6Qc1O2WxmQqQ.png)
@@ -105,3 +105,14 @@ The model is fine-tuned using the specified parameters, and the results are save
 ### Recalling the trained Model
 
 In the third file (fined_LLAMA) the fined tuned model merged with the pretrained model from huggingface and will be tested.
+
+-----------------------------------------------------------
+
+### In the Next Step we will utilize vector similarity techniques to enable the retrieval-augmented generator to extract relevant information from external sources.
+
+you can consult the LangChain-RAG and Llama-Index code files. It's also worth noting that using the LangChain ChatBot in combination with the basic RAG model can lead to improved performance in question-answering tasks.
+
+
+
+
+# Thanks For Following
