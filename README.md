@@ -21,6 +21,8 @@ Fine Tuning a QA model on the Datasheet using a pretrained model and Low-Rank Ad
 
 - Conduct inference using the fine-tuned model
 
+- Using LangChain and Llama-index in Retrieval augmented generation
+
 
 You can learn more about Peft and LoRA here:
 <https://huggingface.co/docs/peft/index>
